@@ -13,7 +13,6 @@ function addTask() {
         const btnDelete = document.createElement("button");
             btnDelete.innerHTML = '<img src="img/delete.svg">';
         el.appendChild(btnDelete);
-        
         const btnEdit = document.createElement("button");
             btnEdit.innerHTML = '<img src="img/edit.svg">';
         el.appendChild(btnEdit);
@@ -21,5 +20,5 @@ function addTask() {
 };
 
 function deleteTask() {
-    el.remove();
-}
+    console.log("deleteTask");
+};
