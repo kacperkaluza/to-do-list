@@ -1,7 +1,7 @@
-const cnt = document.getElementById("container");
+const cnt = document.querySelector(".container");
 
 function addTask() {
-    const tasktext= document.getElementById("textInput").value;
+    const tasktext= document.querySelector("#textInput").value;
     const el = document.createElement("div"); 
         el.classList.add("task");
         const p = document.createElement("p");
